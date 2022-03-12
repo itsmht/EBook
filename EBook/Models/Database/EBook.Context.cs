@@ -34,5 +34,6 @@ namespace EBook.Models.Database
         public virtual DbSet<Seller> Sellers { get; set; }
         public virtual DbSet<SuperAdmin> SuperAdmins { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public object Email { get; internal set; }
     }
 }
